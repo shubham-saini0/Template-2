@@ -20,18 +20,32 @@ ul{
   float:left;
   width:70%;  
   overflow:auto;
+  padding:1%;
 }
 #main{
     display:flex;
     margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
 }
 #sidebar{
     padding-top:0px;
     float:right;
-    width:25%;
-    background:gray;
+    width:29%;
+    background:rgb(216, 213, 213);
     padding:15px;
 padding-bottom:20%;
+margin-right:0px;
+}
+#footer{
+    background:rgb(126, 118, 118);
+    text-align:right;
+    margin:0px;
+    padding:0px;
+}
+#footer p{
+    margin:0px;
+    padding:2%;
 }
 li{
  
