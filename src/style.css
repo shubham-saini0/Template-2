@@ -7,13 +7,31 @@ ul{
     overflow:hidden;
     background:black;
     margin-top:0px;
-    padding-inline-start: 0px;;
+    padding-inline-start: 0px;
+    margin-bottom:0px;
 }
 
-h1{
+#header h1{
     background:gray;
     padding:20px;
     margin-bottom:0px;
+}
+#content {
+  float:left;
+  width:70%;  
+  overflow:auto;
+}
+#main{
+    display:flex;
+    margin-top:0px;
+}
+#sidebar{
+    padding-top:0px;
+    float:right;
+    width:25%;
+    background:gray;
+    padding:15px;
+padding-bottom:20%;
 }
 li{
  
